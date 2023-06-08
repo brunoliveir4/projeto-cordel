@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+
+:root {
+    --fonte-principal: Sriracha, sans-serif;
+    --fonte-titulo: 'Passion One', cursive;
+    --fonte-size: 2em;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+p {
+    font-family: var(--fonte-principal);
+    font-size: 3.7vw;
+    text-indent: 40px;
+}
+
+header {
+    background-color: black;
+    min-height: 170px;
+    text-align: center;
+}
+
+header > h1 {
+    font-family: var(--fonte-titulo);
+    font-weight: bold;
+    font-size: 10vw;
+    color: white;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 50px;
+}
+
+header p {
+    font-family: sans-serif;
+    font-size: 1em;
+    color: white;
+    padding-bottom: 5px;
+}
+
+header a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-size: 17px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Novos códigos */
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 35px;
+}
+/* Novos códigos */
+
+.espaco {
+    background-color: white;
+    padding-left: 0px;
+}
+
+section#foto1 {
+    background-image: url('../imagens/background001.jpg');
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.342);
+}
+
+section#foto2 {
+    background-image: url('../imagens/background002.jpg');
+    background-position: right bottom;
+    background-attachment: fixed;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.342);
+}
+
+.sombras > article p {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.103);
+}
+
+section article {
+    color: white;
+    padding: 50px 0px;
+}
+
+section article > p {
+    display: inline-block;
+    text-indent: 0%;
+    background-color: rgba(0, 0, 0, 0.301);
+    padding: 10px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    min-height: 40px;
+}
+
+footer > p {
+    font-size: 14px;
+    font-family: sans-serif;
+    padding: 10px;
+}
